@@ -1,3 +1,4 @@
+# Glossar
 *Dieses Glossar wurde verfasst und zusammengestellt von Adrian Pohl. Dank geht an Louise Rumpf (Universitätsbibliothek Bamberg), deren umfangreiche Vorschläge zur Verbesserung des Glossars sehr wertvoll waren.*
 
 ## API
