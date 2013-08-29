@@ -86,7 +86,7 @@ RDF-Klassen werden in einem -> Vokabular definiert. Ihnen können Dinge unter Ve
 
 ## Linked Data
 
-Während -> Open Data keine Datenformate vorgibt, solange es sich um offen dokumentierte Formate handelt, geht es bei Linked Data um die Etablierung von Best Practices für im Web integrierte Daten. Diese Best Practices werden im Rahmen des ->*World Wide Web Consortium (W3C)* entwickelt.
+Während -> Open Data keine Datenformate vorgibt, solange es sich um offen dokumentierte Formate handelt, geht es bei Linked Data um die Etablierung von Best Practices für die Integration von Daten in das WWW auf Basis von Standards des -> World Wide Web Consortium (W3C).
 
 Die vier von Tim Berners-Lee formulierten Linked-Data-Prinzipien lauten:
 
