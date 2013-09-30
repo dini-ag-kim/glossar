@@ -1,5 +1,5 @@
 # Glossar
-*Dieses Glossar wurde verfasst und zusammengestellt von Adrian Pohl. Dank geht an Louise Rumpf (Universitätsbibliothek Bamberg), deren umfangreiche Vorschläge zur Verbesserung des Glossars sehr wertvoll waren.*
+*Dieses Glossar wird gepflegt von der [DINI AG KIM](http://www.kim-forum.org) (Kompetenzzentrum Interoperable Metadaten). Die erste Version wurde verfasst und zusammengestellt von Adrian Pohl mit Unterstützung von Louise Rumpf (Universitätsbibliothek Bamberg).*
 
 ## Inhalt
 
@@ -97,7 +97,7 @@ RDF-Klassen werden in einem -> Vokabular definiert. Ihnen können Dinge unter Ve
 
 ## Linked Data
 
-Während -> Open Data keine Datenformate vorgibt, solange es sich um offen dokumentierte Formate handelt, geht es bei Linked Data um die Etablierung von Best Practices für im Web integrierte Daten. Diese Best Practices werden im Rahmen des ->*World Wide Web Consortium (W3C)* entwickelt.
+Während -> Open Data keine Datenformate vorgibt, solange es sich um offen dokumentierte Formate handelt, geht es bei Linked Data um die Etablierung von Best Practices für die Integration von Daten in das WWW auf Basis von Standards des -> World Wide Web Consortium (W3C).
 
 Die vier von Tim Berners-Lee formulierten Linked-Data-Prinzipien lauten:
 
