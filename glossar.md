@@ -1,16 +1,47 @@
-# Glossar
+[# Glossar
 *Dieses Glossar wird gepflegt von der [DINI AG KIM](http://www.kim-forum.org) (Kompetenzzentrum Interoperable Metadaten). Die erste Version wurde verfasst und zusammengestellt von Adrian Pohl mit Unterstützung von Louise Rumpf (Universitätsbibliothek Bamberg).*
 
 ## Inhalt
 
-[API](#api)
-[BEACON](#beacon)
-[Bibliographische Daten](#bibliodata)
-[Blank Node](#bnode)
-[CC0](#cc0)
-[Content Negotiation](#conneg)
-[Cool URI](#cooluri)
-
+[API](#api)  
+[BEACON](#beacon)  
+[Bibliographische Daten](#bibliodata)  
+[Blank Node](#bnode)  
+[CC0](#cc0)  
+[Content Negotiation](#conneg)  
+[Cool URI](#cooluri)  
+[FRBR](#frbr)  
+[Freie Software](#freesoftware)  
+[Freie Inhalte / Open Content](#freecontent)  
+[Graph](#graph)  
+[HTTP](#http)  
+[Klasse](#klasse)  
+[Linked Data](#ld)  
+[Literal](#literal)  
+[Lizenz](#lizenz)  
+[LOD-Cloud](#lodcloud)  
+[Named Graph](#namedgraph)  
+[Namensraum](#namespace)  
+[Ontologie / Vokabular](#ontologie)  
+[Open Data / Offene Daten](#opendata)  
+[Open Knowledge](#openknowledge)  
+[Property](#property)  
+[Provenienz](#provenienz)  
+[Public Domain Dedication](#pdd)  
+[RDF](#rdf)  
+[RDFa](#rdfa)  
+[Reasoning](#reasoning)  
+[Ressource / Repräsentation](#ressource)  
+[REST](#rest)  
+[Semantic Web](#semweb)  
+[SKOS](#skos)  
+[SPARQL](#sparql)  
+[Triple Store](#triplestore)  
+[Turtle](#turtle)  
+[Waiver](#waiver)  
+[WEMI](#wemi)  
+[World Wide Web](#www)  
+[World Wide Web Consortium](#w3c)  
 
 ## <a name="api"></a>API
 
@@ -46,25 +77,25 @@ Content Negotiation ist ein -> HTTP-Mechanismus, der es ermöglicht zwischen ver
 
 Der Ausdruck "Cool URIs" wurde von Tim Berners-Lee in seinem Text "[Cool URIs don't change](http://www.w3.org/Provider/Style/URI)" geprägt. Cool URIs sind demnach -> URIs, die über die Zeit stabil sind. Der an Berners-Lee anknüpfende Text "[Cool URIs for the Semantic Web](http://www.w3.org/TR/cooluris/)" nennt zusammenfassend drei Anforderungen für Cool URIs: Einfachheit, Stabilität und Handhabbarkeit ("simplicity, stability and manageability"). Darüber hinaus wird gefordert, HTTP-URIs zu verwenden ("Be on the web") und eindeutig zu sein, indem Dinge und Dokumente, die sie beschreiben, unterschiedliche URIs bekommen.
 
-## FRBR
+##<a name="frbr"></a> FRBR
 
 FRBR seht für "Functional Requirements for Bibliographic Records" und ist ein Datenmodell zur Strukturierung des "bibliographischen Universums". Die "funktionalen Anforderungen für bibliographische Datensätze" wurden als Entity-Relationship-Modell entwickelt, das grundlegende Entitäten, Beziehungen und Attribute enthält, die für eine Beschreibung bibliographischer Ressourcen verwendet werden.
 
 Die wichtigsten Entitäten sind in der Gruppe 1 der FRBR enthalten, die das Ergebnis einer schöpferischen, intellektuellen oder künstlerischen Tätigkeit darstellen (-> WEMI). Die Gruppe 2 enthält die Entitäten Personen (person) und Körperschaften (corporate body). Gruppe 3 widmet sich mit den Entitäten concept, object, event und place schließlich der inhaltlichen Erschließung.
 
-## Free Software
+## <a name="freesoftware"></a>Free Software
 
 Freie Software (englisch "free software") ist Software, die sicherstellt, dass die Endbenutzer (Privatpersonen, Organisationen, Firmen) die Freiheit haben, die Software zu verwenden, zu untersuchen, zu kopieren, weiterzugeben und zu modifizieren. Es geht daher nicht um den Preis der Software, sondern um die Freiheiten der Endnutzer; z. B. werden die Freiheitsrechte, die Software zu untersuchen und zu modifizieren, bei Freier Software immer durch Verfügbarkeit des Quellcodes garantiert.
 
 Quelle: http://de.wikipedia.org/w/index.php?title=Freie*Software&oldid=112515943 (lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)), leicht überarbeitet.
 
-## Freie Inhalte / Open Content
+## <a name="freecontent"></a>Freie Inhalte / Open Content
 
 Als freie Inhalte (englisch "free content"), auch Open Content genannt, bezeichnet man Inhalte, deren kostenlose Nutzung und Weiterverbreitung urheberrechtlich erlaubt ist. Dies kann nach Ablauf von gesetzlichen Schutzfristen zutreffen, womit ursprünglich geschützte Werke gemeinfrei werden. Alternativ werden Inhalte als frei bezeichnet, wenn der Urheber oder Inhaber der vollumfänglichen Nutzungsrechte ein Werk unter eine freie -> Lizenz gestellt hat.
 
 Quelle: http://de.wikipedia.org/w/index.php?title=Freie*Inhalte&oldid=112075189, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## Graph
+## <a name="graph"></a>Graph
 
 Ein Graph im Allgemeinen ist eine abstrakte Struktur, die eine Menge von Objekten zusammen mit den zwischen diesen Objekten bestehenden Verbindungen repräsentiert. Die mathematischen Abstraktionen der Objekte werden dabei Knoten des Graphen genannt, die Verbindungen zwischen Knoten heißen Kanten. Ein Beispiel für einen Graphen ist der Plan eines U-Bahn-Netzes.
 
@@ -87,15 +118,15 @@ Der Beispiel-RDF-Graph in graphischer Darstellung (nach Konvention werden Ressou
 ![Beispiel-Graph](https://wiki1.hbz-nrw.de/download/attachments/7932849/graph00b_kleiner.png)
 
 
-## HTTP
+## <a name="http"></a>HTTP
 
 Das Hypertext Transfer Protocol (HTTP) ist ein Protokoll zur Übertragung von Daten im -> Word Wide Web. Web-Agenten (z. B. Web-Browser) kommunizieren über dieses Protokoll mit Web-Servern.
 
-## Klasse
+## <a name="klasse"></a>Klasse
 
 RDF-Klassen werden in einem -> Vokabular definiert. Ihnen können Dinge unter Verwendung der -> Property `rdf:type` zugewiesen werden. Ein Vokabular kann zudem Relationen festlegen, die Klassen mit anderen Klassen und mit Properties haben.
 
-## Linked Data
+## <a name="ld"></a>Linked Data
 
 Während -> Open Data keine Datenformate vorgibt, solange es sich um offen dokumentierte Formate handelt, geht es bei Linked Data um die Etablierung von Best Practices für die Integration von Daten in das WWW auf Basis von Standards des -> World Wide Web Consortium (W3C).
 
@@ -108,15 +139,15 @@ Die vier von Tim Berners-Lee formulierten Linked-Data-Prinzipien lauten:
 
 Linked Data baut also auf den bestehenden Web-Standards Uniform Resource Identifiers (-> URI) und Hypertext Transfer Protocol (-> HTTP) auf und ergänzt diese durch das Datenmodell -> RDF zur Repräsentation von Information, -> SPARQL zu Abfrage von RDF-Daten und RDFS sowie OWL zur Schaffung von -> Vokabularen/Ontologien.
 
-## Linked Open Data
+## <a name="lod"></a>Linked Open Data
 
 Linked Open Data sind offene Daten (-> Open Data), die gemäß Linked-Data-Prinzipien (-> Linked Data) unter Nutzung der entsprechenden offenen -> W3C-Standards bereitgestellt werden.
 
-## Literal
+## <a name="literal"></a>Literal
 
 Literale sind Unicode-Zeichenketten, die mit einem eine Datentyp versehen sind und optional mit einem Sprachcode markiert werden können. In einem RDF-Tripel sind Literale allein in Objektstellung erlaubt.
 
-## Lizenz
+## <a name="lizenz"></a>Lizenz
 
 Allgemein ist eine Lizenz (v. lat. licet, „es ist erlaubt“) eine Erlaubnis, Dinge zu tun, die ansonsten verboten sind. Durch einen Lizenzvertrag erteilt der Inhaber eines geschützten Rechts (z. B. eines Urheberrechts) dem Lizenznehmer ein definiertes Nutzungsrecht.
 
@@ -130,31 +161,31 @@ Es gibt unter anderem folgende Lizenztypen, die sich in den Nutzungsbedingungen 
 
 Darüber hinaus gibt es die -> Public Domain Dedication, bei deren Nutzung sämtliche Rechte - soweit möglich - an einem Werk aufgegeben werden.
 
-## LOD-Cloud
+## <a name="lodcloud"></a>LOD-Cloud
 
 Die Summe aller im Web publizierten und untereinander verlinkten RDF-Datenquellen wird als LOD-Cloud bezeichnet. In der Regel werden auch die nicht-offen lizenzierten Linked-Data-Quellen dazugezählt, weshalb der Name "Linked-Data-Cloud" treffender wäre.
 Illustriert wird die LOD-Cloud durch die von Richard Cyganiak und Anja Jentzsch seit 2007 erstellte Graphik, auf der Linked-Data-Quellen im Netz und ihre Verlinkungen untereinander dargestellt werden.
 
-## Named Graph
+## <a name="namedgraph"></a>Named Graph
 
 Ein Named Graph ist ein -> RDF-Graph (d. h. eine Menge von Tripeln), der durch einen URI identifiziert ist. Dies ermöglicht es, den Graphen zu referenzieren, ihn separat zu bearbeiten und weiterzuverwenden. Momentan wird am -> W3C daran gearbeitet, Named Graphs zu einem offiziellen Standard zu erheben. Für den Datenaustausch zwischen verteilten Quellen und für Provenienzinformationen sind Named Graphs sehr nützlich.
 
-## Namensraum
+## <a name="namespace"></a>Namensraum
 
 Der Namensraum ist im Kontext von Linked Data ein -> HTTP-URI, der wiederkehrender Bestandteil von URIs einzelner Dinge (etwa der Elemente eines Vokabulars) ist. Zum Beispiel haben die Elemente des Dublin-Core-Element-Set den Namensraum `http://purl.org/dc/elements/1.1/`. Namensräume werden von dem Besitzer der jeweiligen Domain kontrolliert. 
 In RDF-Serialisierungen wie -> Turtle oder RDF/MXL können häufiger verwendete Namensräume durch ein Präfix (z.B. `dc:`) abgekürzt werden, um den Umfang des Dokuments zu verkürzen und/oder die Lesbarkeit zu erleichtern.  So steht `dc:creator` für den URI `http://purl.org/dc/elements/1.1/creator`, wenn `dc:` als Präfix für den Namensraum `http://purl.org/dc/elements/1.1/` festgelegt wurde. (Siehe auch -> Turtle, -> Reasoning und -> Graph für den beispielhaften Gebrauch von Präfixen für Namensräume.) Unter [prefix.cc](http://prefix.cc) können gebräuchliche Namensraum-Präfixe insbesondere von Vokabularen nachgeschlagen werden.
 
-## Ontologie/Vokabular
+## <a name="ontologie"></a>Ontologie/Vokabular
 
 In der Tatsache, dass die Prädikate zur Beschreibung der Beziehung zwischen Subjekt und Objekt selbst URIs sind (-> RDF), liegt ein grundlegender Unterschied zwischen Linked Data und dem World Wide Web. Zwar basiert auch das Web auf Links, allerdings sind diese nicht typisiert. Das heißt, in einem HTML-Dokument steht zwar, dass dieses Dokument auf ein anderes verlinkt, welcher Art diese Verlinkung ist, bleibt allerdings allenfalls für Menschen nachvollziehbar. Ob auf das Dokument zum Zweck eines Hinweises, einer Rezension etc. verlinkt wird, ist nicht explizit angegeben. Im Linked-Data-Netz ist dies anders, hier ist jede Verlinkung typisiert (siehe das Werk-Autor-Beziehungs-Beispiel unter -> RDF).
 
 Ontologien und Vokabulare definieren sogenannte Properties, die als Prädikate in RDF-Tripeln benutzt werden können sowie deren Beschreibungen und Beziehungen untereinander. Darüber hinaus legt ein Vokabular Klassen fest, denen Dinge zugeordnet werden können, und deren Hierarchien (Unter- und Überklassen). Auf Basis einer Menge von Tripeln und der darin verwendeten Ontologien können implizite Informationen explizit gemacht werden, d.h. weitere Tripel generiert werden (-> Reasoning).
 
-## Open Data / Offene Daten
+## <a name="opendata"></a>Open Data / Offene Daten
 
 Open Data ist ein sehr weiter Begriff, der sich auf den Teil von -> Open Knowledge bezieht, der aus strukturierten, möglichst maschinell prozessierbaren Daten besteht. Entwicklungen hin zu Open Data gibt es bereits in vielen verschiedenen Bereichen, u. a. veröffentlichen Regierungen und öffentliche Verwaltungen Daten in Open-Data-Portalen (Open Government Data), Wissenschaftler publizieren Forschungsdaten wie z. B. Klimadaten oder Genome unter offenen Lizenzen (Open Science Data) und Bibliotheken veröffentlichen ihre Titel-, Norm-, Bestandsdaten etc. (Open Library Data).
 
-## Open Knowledge
+## <a name="openknowledge"></a>Open Knowledge
 
 Open Knowledge ist ein Oberbegriff für verschiedene spezifischere Konzepte wie zum Beispiel -> Freie Inhalte / Open Content, -> Open Data / Offene Daten, Open Government Data (Offene Informationen der Regierung und öffentlichen Verwaltung).
 
@@ -163,20 +194,20 @@ Eine Definition von "Open Knowledge" liefert die Open Knowledge Definition (http
 * *Offene Standards*, d.h. das Wissen muss in einem offen dokumentierten und nicht-proprietären Format vorliegen.
 * *Offene Lizenzen*, d.h. die Daten müssen (als Einzeldatum und als Sammlung) unter einer offenen Lizenz publiziert werden. Als einzige Einschränkungen sind erlaubt: die Forderung nach einer Attribution der Quelle sowie die Share Alike, womit der eine Lizenzierung abgeleiteter Werke unter denselben Bedingungen gefordert wird.
 
-## Property
+## <a name="property"></a>Property
 
 Properties beschreiben die Relation zwischen Subjekt und Objekt eines RDF-Tripels, wobei sie als Prädikat dieses Tripels fungieren. Properties und ihre Relationen zu -> Klassen und anderen Prioperties werden in einem -> Vokabular definiert.
 
 
-## Provenienz
+## <a name="provenienz"></a>Provenienz
 
 Provenienz meint die Herkunft eines bestimmten Dinges - eines Kunstwerks, eines Dokuments oder von Daten. Provenienzinformationen geben Aufschluss über Entitäten und Prozesse, die an der Produktion oder Auslieferung einer Ressource beteiligt waren oder sie anderweitig beeinflusst haben. Die Provenienz liefert die entscheidende Grundlage, um die Authentizität zu bewerten und Vertrauen und Reproduzierbarkeit zu ermöglichen. Provenienzinformationen sind eine Form von Metadaten und können selbst zu wichtigen Datensätzen mit eigener Provenienz werden. (Vgl. in diesem Band: Eckert, Die Provenienz von Linked Data.)
 
-## Public Domain Dedication
+## <a name="pdd"></a>Public Domain Dedication
 
 Mit einer Public Domain Dedication - oftmals auch als "Waiver" bezeichnet - können Anwender ihre eigenen Werke in die Gemeinfreiheit überführen, d. h. eventuell an dem Werk bestehende geistige Eigentumsrechte abgeben.  Wenn dies - wie in Deutschland - rechtlich nicht möglich ist, fungiert eine Public Domain Dedication i. d. R. als Lizenzvertrag ohne einschränkende Lizenzbedingungen. Die Creative Commons Public Domain Dedication (CC0) und die Public Domain Dedication and License von Open Data Commons sind die bekanntesten Waiver.
 
-## RDF
+## <a name="rdf"></a>RDF
 
 Das Resource Description Framework (RDF) ist ein Datenmodell zur Repräsentation von Information in der elementarsten Form: als einzelne Aussage. RDF-Aussagen bestehen aus drei Teilen, aus diesem Grund spricht man auch von einem RDF-Tripel. Die drei Teile werden ‚Subjekt’, ‚Prädikat’ und ‚Objekt’ genannt. Die Aussage "Dieser Text wurde verfasst von Adrian Pohl." besteht aus Subjekt ("Dieser Text"), Prädikat ("wurde verfasst von") und Objekt ("Adrian Pohl"). In RDF lässt sich das Ganze wie folgt ausdrücken.
 
@@ -190,11 +221,11 @@ Literale dürfen in RDF-Tripeln nur im Objekt vorkommen. Subjekt und Prädikat m
 
 RDF ist ein abstraktes Modell, das in verschiedenen Formaten (Serialisierungen) ausgedrückt werden kann. Bekannte RDF-Serialisierungen sind NTriples und RDF/XML sowie für menschliche Lesbarkeit besser geeignete  Serialisierungen wie -> Turtle und Notation3 (N3). RDF-Tripel können auch graphisch dargestellt werden: Nach Konvention werden Ressourcen, die Subjekt oder Objekt eines Tripels sind, durch Ellipsen und Literale durch Rechtecke symbolisiert (vgl. -> Graph).
 
-## RDFa
+## <a name="rdfa"></a>RDFa
 
 RDFa (für "RDF in Attributes") ist eine -> W3C-Empfehlung, die das Einbetten von RDF-Aussagen in Webseiten ermöglicht. Gemeinsam mit Mikroformaten und Microdata zählt es zu den gebräuchlichsten Methoden, (X)HTML-Seiten mit maschinenlesbaren Zusatzinformationen aufzuwerten.
 
-## Reasoning
+## <a name="reasoning"></a>Reasoning
 
 Reasoning oder Inferencing (Inferenzieren) bezeichnet den Vorgang, auf Basis bestehender RDF-Daten neue Verlinkungen zu generieren. Die Grundlage bilden die den verwendeten Klassen und Properties zugrundeliegenden ->*Vokabulare/Ontologien*. Mit Reasoning wird gewissermaßen implizites Wissen, das in der Kombination von einer Datenbasis und den darin genutzten Ontologien liegt, explizit gemacht.
 
@@ -225,16 +256,16 @@ Das FOAF-Vokabular sagt unter anderem über foaf:Person aus, dass es sich um ein
 <http://viaf.org/viaf/85312226> a <http://www.w3.org/2000/10/swap/pim/contact#Person>, <http://www.w3.org/2003/01/geo/wgs84*pos#SpatialThing>, foaf:Agent .
 ```
 
-## Ressource / Repräsentation
+## <a name="ressource"></a>Ressource / Repräsentation
 
 Der Begriff 'Ressource' wird sehr allgemein definiert (vgl. etwa [RFC 3986](http://tools.ietf.org/html/rfc3986)). Eine Ressource (engl. resource) ist all jenes, was durch einen -> URI identifiziert werden kann. Neben Webseiten, Services, Fotos und anderen Dingen, die über -> HTTP abgerufen werden können, gehören auch raumzeitliche Dinge dazu wie Personen und Orte sowie abstrakte Dinge. Somit wird der Ausdruck "Ressource" verwendet wie die Ausdrücke "Ding" oder "Entität".
 Die *Repräsentation* einer Ressource im Web ist das, was zurückgeliefert wird, wenn ich auf den URI der Ressource zugreife. Repräsentationen derselben Ressource können sich sowohl im Laufe der Zeit als auch zu einem konkreten Zeitpunkt unterscheiden (vgl. -> Content Negotiation).
 
-## REST
+## <a name="rest"></a>REST
 
 REST ist ein Paradigma für Software-Architekturen in verteilten Systemen wie dem World Wide Web, die *HTTP* oder ähnliche Protokolle nutzen. Jede *Ressource* wird dabei mit einem *Cool URI* angesprochen, weshalb Cool URIs stark mit dem REST-Ansatz verknüpft sind. REST vereinheitlicht Schnittstellen auf eine überschaubare und standardisierte Menge von Aktionen (für HTTP-basierte Schnittstellen sind dies GET, POST, PUT, DELETE).
 
-## Semantic Web
+## <a name="semweb"></a>Semantic Web
 
 Die Idee des Semantic Web steckte bereits in Tim Berners-Lees Vorschlag für das -> World Wide Web.
 
@@ -244,19 +275,19 @@ Es geht dabei darum, nicht nur ganze Dokumente im Web zu veröffentlichen, sonde
 
 "Semantisch" soll dieses Web sein, weil Ontologien es Maschinen erlauben sollen, auf Basis bestehender Informationen durch automatisierte Schlussfolgerungen neue Informationen zu generieren, die in den Daten bisher nicht enthalten sind. Da allerdings von Menschen generierte Daten immer fehlerhaft sind, handelt es sich hier um eine Utopie, weshalb oft der weniger verheißungsvolle Ausdruck "Linked Data" bevorzugt wird, der den Vernetzungscharakter betont und die semantische Ebene der Schlussfolgerungen und Wissensgenerierung außen vor lässt.
 
-## SKOS
+## <a name="skos"></a>SKOS
 
 SKOS steht für "Simple Knowledge Organization System" und ist das standardmäßig genutzte ->Vokabular für die RDF-Repräsentation von Thesauri und anderen Dokumentationssprachen. SKOS beinhaltet Relationen wie "broader", "narrower" und  "related terms" und ermöglicht die Spezifikation bevorzugter und alternativer Ausdrücke für die Präsentation z.B. einer Klassifikationsstelle in verschiedenen Sprachen.
 
-## SPARQL
+## <a name="sparql"></a>SPARQL
 
 Das Akronym "SPARQL" steht für "SPARQL Protocol And RDF Query Language". Bei SPARQL handelt es sich um die Abfragesprache für -> Triple Stores.
 
-## Triple Store
+## <a name="triplestore"></a>Triple Store
 
 Ein Triple-Store ist eine Datenbank, die auf -> RDF-Tripeln basiert, im Gegensatz z.B. zu einer relationalen Datenbank, die auf einer Tabellenstruktur aufgebaut ist.
 
-## Turtle
+## <a name="turtle"></a>Turtle
 
 Turtle ist ein einfaches, menschenlesbares RDF-Format. Die wesentlichen Merkmale seien hier kurz dargestellt.
 
@@ -287,7 +318,7 @@ Ebenso können Tripel vereinfacht werden, die das gleiche Subjekt und Prädikat 
 <> dcterms:contributor <http://d-nb.info/gnd/14326723X>, <http://d-nb.info/gnd/1026364728> .
 ```
 
-## URI
+## <a name="uri"></a>URI
 
 Ein Uniform Resource Identifier ist ein Identifikator, der im RFC 3986 definiert ist und einem vorgegebenen Schema folgt. Allseits bekannte URIs sind URLs, DOIs oder URNs. Beispiele für URIs sind:
 
@@ -300,11 +331,11 @@ Ein Uniform Resource Identifier ist ein Identifikator, der im RFC 3986 definiert
 Für ->Linked Data wird allein die Benutzung von URIs empfohlen, die auf dem HTTP-Protokoll basieren (HTTP-URIs). Diese HTTP-URIs werden somit auch zur Identifikation raum-zeitlicher Dinge wie Personen, Bauwerken etc. oder abstrakten Dingen wie Klassifikationsstellen, Konzepten etc. genutzt und nicht nur zur Identifikation von Online-Ressourcen wie etwa HTML-Seiten.
 
 
-## Waiver
+## <name="waiver"></a>Waiver
 
 -> Public Domain Dedication
 
-## WEMI
+## <a name="wemi"></a>WEMI
 
 "WEMI" oder "WEMI-Modell" bezieht sich auf die Entitäten der Gruppe 1 in *FRBR*. Das Akronym "WEMI" steht dabei für die Anfangsbuchstaben dieser vier Entitäten, die das Ergebnis einer schöpferischen, intellektuellen oder künstlerischen Tätigkeit darstellen:
 * **W**ork (dt. Werk): Ein Werk, beispielsweise ein Roman als abstraktes Objekt (z. B. *Die Leiden des jungen Werther* von Goethe)
@@ -314,7 +345,7 @@ Für ->Linked Data wird allein die Benutzung von URIs empfohlen, die auf dem HTT
 
 Übernommen und leicht angepasst von http://de.wikipedia.org/w/index.php?title=Functional*Requirements*for*Bibliographic*Records&oldid=113340752, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## World Wide Web
+## <a name="www"></a>World Wide Web
 
 Das World Wide Web (kurz Web oder WWW aus dem Englischen für: „Weltweites Netz“) ist ein über das Internet abrufbares System von elektronischen Hypertext-Dokumenten, die durch Hyperlinks miteinander verknüpft sind und über die Protokolle HTTP bzw. HTTPS übertragen werden.
 
@@ -324,7 +355,7 @@ Das WWW wird im allgemeinen Sprachgebrauch oft mit dem Internet gleichgesetzt, o
 
 Quelle: http://de.wikipedia.org/w/index.php?title=World*Wide*Web&oldid=111959628, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## World Wide Web Consortium (W3C)
+## <a name="w3c"></a>World Wide Web Consortium (W3C)
 
 Das World Wide Web Consortium (kurz W3C) ist das Gremium zur Standardisierung der das World Wide Web betreffenden Techniken. Es wurde am 1. Oktober 1994 am MIT Laboratory for Computer Science in Cambridge (Massachusetts) gegründet. Das W3C ist eine Mitgliedsorganisation. Mitglieder sind Softwarefirmen, Telekommunikationsunternehmen, Hochschulen, Forschungseintrichtungen, Normungsorganisationen und öffentliche Einrichtungen. (Zu den W3C-Mitgliedern gehören: Microsoft, IBM, Google, Apple, Samsung, Deutsche Telekom, ebay und aus der Bibliotehkswelt: OCLC, Library of Congress, Deutsche Nationalbibliothek, hbz.)
 
