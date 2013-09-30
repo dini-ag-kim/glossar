@@ -11,7 +11,7 @@
 [Content Negotiation](#conneg)  
 [Cool URI](#cooluri)  
 [FRBR](#frbr)  
-[Freie Software](#freesoftware)  
+[Free Software](#freesoftware)  
 [Freie Inhalte / Open Content](#freecontent)  
 [Graph](#graph)  
 [HTTP](#http)  
@@ -56,7 +56,7 @@ BEACON ist ein einfaches Dateiformat. Mit BEACON werden Links auf Webseiten ange
 
 Quelle: http://de.wikipedia.org/w/index.php?title=Wikipedia:BEACON&oldid=114357945, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## <name="bibliodata"></a> Bibliographische Daten
+## <a name="bibliodata"></a> Bibliographische Daten
 
 Bibliographische Daten bestehen aus bibliographischen Beschreibungen. Eine bibliographische Beschreibung beschreibt eine bibliographische Ressource (Artikel, Monographie etc. -- ob gedruckt oder elektronisch), um sie a) eindeutig zu identifizieren und b) auffindbar zu machen. Traditionellerweise erfüllt eine Beschreibung beide Zwecke gleichzeitig, indem sie Information liefert über: Autor(en) und Herausgeber, Titel, Verlag, Veröffentlichungsdatum und -ort, Identifizierung des übergeordneten Werks (z.B. einer Zeitschrift), Seitenangaben. Eine eindeutige Identifikation bibliographischer Ressourcen findet heute häufig über -> URIs statt, weil zunehmend entsprechende Identifikatoren wie DOIs oder URNs verwendet werden.
 
@@ -65,7 +65,7 @@ Bibliographische Daten bestehen aus bibliographischen Beschreibungen. Eine bibli
 
 Blank Nodes sind Knoten eines RDF-Graphen, die keinen -> URI als Identifier haben und damit nicht webweit referenziert werden können. Sie werden beispielsweise für anonyme Ressourcen (analog der logischen Existenzaussage "es gibt mindestens ein x, das ...") verwendet oder für bekannte Ressourcen, denen noch kein URI zugewiesen wurde. Wenn möglich sollten Blank Nodes vermieden werden, da sie die Nutzbarkeit von RDF-Daten einschränken.
 
-## <a name="cc0">CC0
+## <a name="cc0"></a>CC0
 
 -> Public Domain Dedication
 
