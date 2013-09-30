@@ -67,7 +67,7 @@ Blank Nodes sind Knoten eines RDF-Graphen, die keinen -> URI als Identifier habe
 
 ## <a name="cc0"></a>CC0
 
--> Public Domain Dedication
+-> [Public Domain Dedication](#pdd)
 
 ## <a name="conneg"></a>Content Negotiation
 
@@ -336,7 +336,7 @@ Für ->Linked Data wird allein die Benutzung von URIs empfohlen, die auf dem HTT
 
 ## <name="waiver"></a>Waiver
 
--> Public Domain Dedication
+-> [Public Domain Dedication](#pdd)
 
 ## <a name="wemi"></a>WEMI
 
