@@ -164,7 +164,10 @@ Darüber hinaus gibt es die -> Public Domain Dedication, bei deren Nutzung sämt
 ## <a name="lodcloud"></a>LOD-Cloud
 
 Die Summe aller im Web publizierten und untereinander verlinkten RDF-Datenquellen wird als LOD-Cloud bezeichnet. In der Regel werden auch die nicht-offen lizenzierten Linked-Data-Quellen dazugezählt, weshalb der Name "Linked-Data-Cloud" treffender wäre.
-Illustriert wird die LOD-Cloud durch die von Richard Cyganiak und Anja Jentzsch seit 2007 erstellte Graphik, auf der Linked-Data-Quellen im Netz und ihre Verlinkungen untereinander dargestellt werden.
+Illustriert wird die LOD-Cloud durch die von Richard Cyganiak und Anja Jentzsch
+seit 2007 erstellte Graphik, auf der Linked-Data-Quellen im Netz und ihre
+Verlinkungen untereinander dargestellt werden. Siehe die verschiedenen
+Versionen der Graphik unter [lod-cloud.net](lod-cloud.net).
 
 ## <a name="namedgraph"></a>Named Graph
 
