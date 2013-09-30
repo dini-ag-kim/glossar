@@ -1,37 +1,48 @@
 # Glossar
 *Dieses Glossar wurde verfasst und zusammengestellt von Adrian Pohl. Dank geht an Louise Rumpf (Universitätsbibliothek Bamberg), deren umfangreiche Vorschläge zur Verbesserung des Glossars sehr wertvoll waren.*
 
-## API
+## Inhalt
+
+[API](#api)
+[BEACON](#beacon)
+[Bibliographische Daten](#bibliodata)
+[Blank Node](#bnode)
+[CC0](#cc0)
+[Content Negotiation](#conneg)
+[Cool URI](#cooluri)
+
+
+## <a name="api"></a>API
 
 API steht für "Application Programming Interface", dt. "Schnittstelle für die Anwendungsprogrammierung". Im allgemeinen ist eine API die Schnittstelle eines Softwaresystems, die anderen Programmen eine Anbindung an das System ermöglicht.
 
 Im Kontext des -> World Wide Web und von Linked Open Data sind insbesondere *Web-API*s relevant. Web-APIs sind Schnittstellen, die dem -> REST-Paradigma für Webanwendungen folgen. Web-APIs erlauben den Aufbau von sogenannten *Mashups*, das sind Webanwendungen, die selbst aus einer Kombination anderer Webanwendungen resultieren.
 
 
-## BEACON
+## <a name="beacon"></a>BEACON
 
 BEACON ist ein einfaches Dateiformat. Mit BEACON werden Links auf Webseiten angegeben, die Informationen enthalten zu in Normdateien verzeichneten Dingen. Derzeit wird das Format vor allem für Personen genutzt, die mittels ihres Identifikators in der Gemeinsamen Normdatei (GND) identifiziert werden. Es eignet sich in seiner jetzigen Form aber auch zur Verwendung für Körperschaften und Schlagwörter sowie grundsätzlich auch für weitere Normdaten.
 
 Quelle: http://de.wikipedia.org/w/index.php?title=Wikipedia:BEACON&oldid=114357945, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-## Bibliographische Daten
+## <name="bibliodata"></a> Bibliographische Daten
 
 Bibliographische Daten bestehen aus bibliographischen Beschreibungen. Eine bibliographische Beschreibung beschreibt eine bibliographische Ressource (Artikel, Monographie etc. -- ob gedruckt oder elektronisch), um sie a) eindeutig zu identifizieren und b) auffindbar zu machen. Traditionellerweise erfüllt eine Beschreibung beide Zwecke gleichzeitig, indem sie Information liefert über: Autor(en) und Herausgeber, Titel, Verlag, Veröffentlichungsdatum und -ort, Identifizierung des übergeordneten Werks (z.B. einer Zeitschrift), Seitenangaben. Eine eindeutige Identifikation bibliographischer Ressourcen findet heute häufig über -> URIs statt, weil zunehmend entsprechende Identifikatoren wie DOIs oder URNs verwendet werden.
 
 
-## Blank Node
+## <a name="bnode"></a>Blank Node
 
 Blank Nodes sind Knoten eines RDF-Graphen, die keinen -> URI als Identifier haben und damit nicht webweit referenziert werden können. Sie werden beispielsweise für anonyme Ressourcen (analog der logischen Existenzaussage "es gibt mindestens ein x, das ...") verwendet oder für bekannte Ressourcen, denen noch kein URI zugewiesen wurde. Wenn möglich sollten Blank Nodes vermieden werden, da sie die Nutzbarkeit von RDF-Daten einschränken.
 
-## CC0
+## <a name="cc0">CC0
 
 -> Public Domain Dedication
 
-## Content Negotiation
+## <a name="conneg"></a>Content Negotiation
 
 Content Negotiation ist ein -> HTTP-Mechanismus, der es ermöglicht zwischen verschiedenen Repräsentationen einer Ressource auszuwählen. Verschiedene Repräsentationen könne sich etwa anhand der Sprache oder des gelieferten Formats unterscheiden. Linked-Data-Services stellen beispielweise Daten in verschiedenen -> RDF-Serialisierungen (-> Turtle, N3, RDF/XML, JSON-LD) bereit, so dass Datennutzer das von ihnen bevorzugte Format wählen können.
 
-## Cool URI
+## <a name="cooluri"></a>Cool URI
 
 Der Ausdruck "Cool URIs" wurde von Tim Berners-Lee in seinem Text "[Cool URIs don't change](http://www.w3.org/Provider/Style/URI)" geprägt. Cool URIs sind demnach -> URIs, die über die Zeit stabil sind. Der an Berners-Lee anknüpfende Text "[Cool URIs for the Semantic Web](http://www.w3.org/TR/cooluris/)" nennt zusammenfassend drei Anforderungen für Cool URIs: Einfachheit, Stabilität und Handhabbarkeit ("simplicity, stability and manageability"). Darüber hinaus wird gefordert, HTTP-URIs zu verwenden ("Be on the web") und eindeutig zu sein, indem Dinge und Dokumente, die sie beschreiben, unterschiedliche URIs bekommen.
 
