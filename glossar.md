@@ -374,4 +374,4 @@ Quelle: [http://de.wikipedia.org/w/index.php?title=World*Wide*Web*Consortium&old
 ![CC0 logo](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
 
-Dieses Glossar ist - soweit vom Autor selbst erstellt und keine Quellenangaben angegeben - unter einer [CC0-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/) publiziert. Weiterverwendung, Vervielfältigung und Weiterverbreitung unterliegen somit keinerlei Bedingungen. Es wird darum gebeten, die gute Praxis der Quellenangabe beizubehalten und Autor wie Quelle bei Weiterverwendung zu nennen.
+Dieses Glossar ist - soweit von den Autorinnen und Autoren selbst erstellt und nicht aus anderen Quellen übernommen  - unter einer [CC0-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/) publiziert. Weiterverwendung, Vervielfältigung und Weiterverbreitung unterliegen somit keinerlei Bedingungen. Es wird darum gebeten, die gute Praxis der Quellenangabe beizubehalten und die Quelle bei Weiterverwendung größerer Teile anzugeben.
