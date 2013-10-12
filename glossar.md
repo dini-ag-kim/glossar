@@ -54,7 +54,7 @@ Im Kontext des [World Wide Web](#www) und von Linked Open Data sind insbesondere
 
 BEACON ist ein einfaches Dateiformat. Mit BEACON werden Links auf Webseiten angegeben, die Informationen enthalten zu in Normdateien verzeichneten Dingen. Derzeit wird das Format vor allem für Personen genutzt, die mittels ihres Identifikators in der Gemeinsamen Normdatei (GND) identifiziert werden. Es eignet sich in seiner jetzigen Form aber auch zur Verwendung für Körperschaften und Schlagwörter sowie grundsätzlich auch für weitere Normdaten.
 
-Quelle: http://de.wikipedia.org/w/index.php?title=Wikipedia:BEACON&oldid=114357945, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+Quelle: <http://de.wikipedia.org/w/index.php?title=Wikipedia:BEACON&oldid=114357945>, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## <a name="bibliodata"></a> Bibliographische Daten
 
@@ -87,13 +87,13 @@ Die wichtigsten Entitäten sind in der Gruppe 1 der FRBR enthalten, die das Erge
 
 Freie Software (englisch "free software") ist Software, die sicherstellt, dass die Endbenutzer (Privatpersonen, Organisationen, Firmen) die Freiheit haben, die Software zu verwenden, zu untersuchen, zu kopieren, weiterzugeben und zu modifizieren. Es geht daher nicht um den Preis der Software, sondern um die Freiheiten der Endnutzer; z. B. werden die Freiheitsrechte, die Software zu untersuchen und zu modifizieren, bei Freier Software immer durch Verfügbarkeit des Quellcodes garantiert.
 
-Quelle: http://de.wikipedia.org/w/index.php?title=Freie*Software&oldid=112515943 (lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)), leicht überarbeitet.
+Quelle: <http://de.wikipedia.org/w/index.php?title=Freie*Software&oldid=112515943> (lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)), leicht überarbeitet.
 
 ## <a name="freecontent"></a>Freie Inhalte / Open Content
 
 Als freie Inhalte (englisch "free content"), auch Open Content genannt, bezeichnet man Inhalte, deren kostenlose Nutzung und Weiterverbreitung urheberrechtlich erlaubt ist. Dies kann nach Ablauf von gesetzlichen Schutzfristen zutreffen, womit ursprünglich geschützte Werke gemeinfrei werden. Alternativ werden Inhalte als frei bezeichnet, wenn der Urheber oder Inhaber der vollumfänglichen Nutzungsrechte ein Werk unter eine freie [Lizenz](#lizenz) gestellt hat.
 
-Quelle: http://de.wikipedia.org/w/index.php?title=Freie*Inhalte&oldid=112075189, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+Quelle: <http://de.wikipedia.org/w/index.php?title=Freie*Inhalte&oldid=112075189>, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## <a name="graph"></a>Graph
 
@@ -193,13 +193,14 @@ Open Data ist ein sehr weiter Begriff, der sich auf den Teil von [Open Knowledge
 Open Knowledge ist ein Oberbegriff für verschiedene spezifischere Konzepte wie zum Beispiel [Freie Inhalte / Open Content](#freecontent)), [Open Data / Offene Daten](#opendata), Open Government Data (Offene Informationen der Regierung und öffentlichen Verwaltung).
 
 Eine Definition von "Open Knowledge" liefert die Open Knowledge Definition (http://opendefinition.org/okd/) der Open Knowledge Foundation, die folgende zentrale Bedingungen an offenes Wissen stellt:
+
 * *Offener Zugang* zum Wissen, d.h. es muss offen und kostenlos als Gesamtheit (vorzugsweise im Internet) zugänglich sein.
 * *Offene Standards*, d.h. das Wissen muss in einem offen dokumentierten und nicht-proprietären Format vorliegen.
 * *Offene Lizenzen*, d.h. die Daten müssen (als Einzeldatum und als Sammlung) unter einer offenen Lizenz publiziert werden. Als einzige Einschränkungen sind erlaubt: die Forderung nach einer Attribution der Quelle sowie die Share Alike, womit der eine Lizenzierung abgeleiteter Werke unter denselben Bedingungen gefordert wird.
 
 ## <a name="property"></a>Property
 
-Properties beschreiben die Relation zwischen Subjekt und Objekt eines RDF-Tripels, wobei sie als Prädikat dieses Tripels fungieren. Properties und ihre Relationen zu [Klasse](#klasse)n und anderen Prioperties werden in einem [Vokabular](#ontologie) definiert.
+Properties beschreiben die Relation zwischen Subjekt und Objekt eines RDF-Tripels, wobei sie als Prädikat dieses Tripels fungieren. Properties und ihre Relationen zu [Klassen](#klasse) und anderen Prioperties werden in einem [Vokabular](#ontologie) definiert.
 
 
 ## <a name="provenienz"></a>Provenienz
@@ -341,12 +342,13 @@ Für [Linked Data](#ld) wird allein die Benutzung von URIs empfohlen, die auf de
 ## <a name="wemi"></a>WEMI
 
 "WEMI" oder "WEMI-Modell" bezieht sich auf die Entitäten der Gruppe 1 in *FRBR*. Das Akronym "WEMI" steht dabei für die Anfangsbuchstaben dieser vier Entitäten, die das Ergebnis einer schöpferischen, intellektuellen oder künstlerischen Tätigkeit darstellen:
+
 * **W**ork (dt. Werk): Ein Werk, beispielsweise ein Roman als abstraktes Objekt (z. B. *Die Leiden des jungen Werther* von Goethe)
 * **E**xpression (dt. Expression): Der Ausdruck eines Werkes, beispielsweise eine Übersetzung (z. B. die Übersetzung des *Werther* von Pierre Leroux)
 * **M**anifestation (dt. Manifestation): Eine manifestierte Ausgabe einer Expression, beispielsweise eine Auflage eines Buches (z. B. die in Paris im Jahr 1841 erschienene Leroux'sche Übersetzung)
 * **I**tem (dt. Exemplar): Ein konkretes raum-zeitliches Ding, beispielsweise ein Exemplar eines Buches (z. B. das Exemplar mit der Signatur "Yv 7991/1" in der Staatsbibliothek zu Berlin)
 
-Übernommen und leicht angepasst von http://de.wikipedia.org/w/index.php?title=Functional*Requirements*for*Bibliographic*Records&oldid=113340752, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+Übernommen und leicht angepasst von <http://de.wikipedia.org/w/index.php?title=Functional*Requirements*for*Bibliographic*Records&oldid=113340752>, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## <a name="www"></a>World Wide Web
 
@@ -356,7 +358,7 @@ Zur Nutzung des World Wide Web wird ein Webbrowser benötigt, welcher die Daten 
 
 Das WWW wird im allgemeinen Sprachgebrauch oft mit dem Internet gleichgesetzt, obwohl es jünger ist und nur eine von mehreren möglichen Nutzungen des Internets darstellt. Andere Internet-Dienste wie E-Mail, IRC und Telnet sind nicht in das WWW integriert.
 
-Quelle: http://de.wikipedia.org/w/index.php?title=World*Wide*Web&oldid=111959628, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+Quelle: <http://de.wikipedia.org/w/index.php?title=World*Wide*Web&oldid=111959628>, lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## <a name="w3c"></a>World Wide Web Consortium (W3C)
 
@@ -364,7 +366,7 @@ Das World Wide Web Consortium (kurz W3C) ist das Gremium zur Standardisierung de
 
 Gründer und Vorsitzender des W3C ist Tim Berners-Lee, der auch als der Erfinder des World Wide Web bekannt ist. Das W3C entwickelt technische Spezifikationen und Richtlinien mittels eines ausgereiften, transparenten Prozesses, um maximalen Konsens über den Inhalt eines technischen Protokolls, hohe technische und redaktionelle Qualität und Zustimmung durch das W3C und seiner Anhängerschaft zu erzielen.
 
-Quelle: [http://de.wikipedia.org/w/index.php?title=World*Wide*Web*Consortium&oldid=112632072] (lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)), leicht angepasst.
+Quelle: <http://de.wikipedia.org/w/index.php?title=World*Wide*Web*Consortium&oldid=112632072> (lizenziert unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)), leicht angepasst.
 
 
 
