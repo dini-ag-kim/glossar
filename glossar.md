@@ -1,5 +1,11 @@
 # Glossar
-*Dieses Glossar wird gepflegt von der [DINI AG KIM](http://www.kim-forum.org) (Kompetenzzentrum Interoperable Metadaten). Die erste Version wurde verfasst und zusammengestellt von Adrian Pohl mit Unterstützung von Louise Rumpf (Universitätsbibliothek Bamberg).*
+
+*Dieses Glossar wird gepflegt von der [DINI AG KIM](http://www.kim-forum.org)
+(Kompetenzzentrum Interoperable Metadaten). Die erste Version wurde verfasst
+und zusammengestellt von Adrian Pohl mit Unterstützung von Louise Rumpf
+(Universitätsbibliothek Bamberg). Die jeweils aktuelle Version steht unter
+<http://dini-ag-kim.github.io/glossar/glossar.html> und kann unter
+<https://github.com/dini-ag-kim/glossar> bearbeitet werden.*
 
 ## Inhalt
 
