@@ -341,7 +341,7 @@ Ein Uniform Resource Identifier ist ein Identifikator, der im RFC 3986 definiert
 Für [Linked Data](#ld) wird allein die Benutzung von URIs empfohlen, die auf dem HTTP-Protokoll basieren (HTTP-URIs). Diese HTTP-URIs werden somit auch zur Identifikation raum-zeitlicher Dinge wie Personen, Bauwerken etc. oder abstrakten Dingen wie Klassifikationsstellen, Konzepten etc. genutzt und nicht nur zur Identifikation von Online-Ressourcen wie etwa HTML-Seiten.
 
 
-## <name="waiver"></a>Waiver
+## <a name="waiver"></a>Waiver
 
 [Public Domain Dedication](#pdd)
 
